@@ -1,4 +1,7 @@
-<link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+<?
+  include 'topnav.html';
+?>
+ <link href="https://allfont.net/allfont.css?fonts=comic-sans-ms-bold" rel="stylesheet" type="text/css" />
 <script src="https://code.jquery.com/jquery-latest.js"></script>
 
    <style>
@@ -18,11 +21,12 @@
 
        /* Modal Content/Box */
        .modal-content {
+
            background-color: #fefefe;
            margin: 15% auto; /* 15% from the top and centered */
            padding: 20px;
            border: 1px solid #888;
-           width: 30%; /* Could be more or less, depending on screen size */
+           width: 25%; /* Could be more or less, depending on screen size */
 
        }
 
@@ -32,11 +36,11 @@
    <div id="myModal" class="modal">
      <!-- Modal content -->
      <div class="modal-content">
-               <p style="text-align: center;"><b><span style="font-size: 24pt;"><span style="font-family: 'Nanum Brush Script',cursive;">설문</span></b></span></p><br>
+               <p style="text-align: center;"><b><span style="font-size: 20pt;"><span style="font-family: 'Comic Sans MS Bold', arial;">설문</span></b></span></p><br>
                <table><tr>
-                 <font style="font-family: 'Nanum Brush Script',cursive;">
-                 <td width=160 align=center style="font-size:25px"><font style="font-family: 'Nanum Brush Script',cursive;">카테고리
-                   <td align=center><select name="my_category">
+                 <font style="font-family: 'Comic Sans MS Bold', arial;',cursive;">
+                 <td width=160 align=center style="font-size:20px"><font style="font-family: 'Comic Sans MS Bold', arial;">카테고리
+                   <td align=center>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<select name="my_category">
                     <option value="0">밥</option>
                     <option value="1">운동</option>
                     <option value="2">공부</option>
@@ -48,8 +52,8 @@
 
                </tr>
                <tr>
-                <td width=160 align=center style="font-size:25px"><font style="font-family: 'Nanum Brush Script',cursive;">희망 언어
-                  <td align=center><select name="my_language" >
+                <td width=160 align=center style="font-size:18px"><font style="font-family: 'Comic Sans MS Bold', arial;">희망 언어
+                  <td align=center>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<select name="my_language" >
                    <option value="0">영어</option>
                    <option value="1">중국어</option>
                    <option value="2">일본어</option>
@@ -57,9 +61,9 @@
                  </select></td>
 
                </tr>
-               <tr> <font style="font-family: 'Nanum Brush Script',cursive;">
-               <td width=160 align=center style="font-size:25px"><font style="font-family: 'Nanum Brush Script',cursive;">성별
-                  <td align=center><select name="my_sex" >
+               <tr> <font style="font-family: 'Comic Sans MS Bold', arial;">
+               <td width=160 align=center style="font-size:18px"><font style="font-family: 'Comic Sans MS Bold', arial;">성별
+                  <td align=center>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<select name="my_sex" >
                    <option value="0">남</option>
                    <option value="1">여</option>
                   </select></td></td>
@@ -68,7 +72,7 @@
               <br><br>
            <div style="cursor:pointer;background-color:#DDDDDD;text-align: center;padding-bottom: 10px;padding-top: 10px;" onClick="close_pop();">
 
-               <span class="pop_bt" style="font-size: 17pt;" style="font-family: 'Nanum Brush Script',cursive;">신청하기</span>
+               <span class="pop_bt" style="font-size: 18px;" style="font-family: 'Comic Sans MS Bold', arial;">신청하기</span>
            </div>
      </div>
    </div>
@@ -104,5 +108,3 @@
      </script>
 
      <script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
-     

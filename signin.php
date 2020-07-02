@@ -8,7 +8,8 @@
   <!-- 글씨체 설정을 위한 외부 스타일 시트 연결합니다. -->
   <link rel="stylesheet" href="ui.css" type="text/css">
   <!-- 연결할 글씨체 리소스의 url입니다. -->
-  <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+<link href="https://allfont.net/allfont.css?fonts=comic-sans-ms-bold" rel="stylesheet" type="text/css" />
+
   <?
       include 'topnav.html';
   ?>

@@ -2,11 +2,11 @@
   include 'topnav.html';
 ?>
 <link rel="stylesheet" href="ui.css" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+ <link href="https://allfont.net/allfont.css?fonts=comic-sans-ms-bold" rel="stylesheet" type="text/css" />
 <center>
 <br><br><body>
-<font style="font-size:45px"><b>교수님 소개</b></font>
-<br><br><br>
+<font style="font-size:30px"><b>교수님 소개</b></font>
+<br><br>
 <select id="depart">
   <option selected disabled value="0">학과선택</option>
   <option value="컴퓨터공학과">컴퓨터공학과</option>

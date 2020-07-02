@@ -1,8 +1,11 @@
+<?
+  include 'topnav.html'
+?>
 <!DOCTYPE html>
 <html>
 <head>
   <link rel="stylesheet" href="ui.css" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+  <link href="https://allfont.net/allfont.css?fonts=comic-sans-ms-bold" rel="stylesheet" type="text/css" />
   <script>
   function check(){
     var password = document.getElementById("password").value;
@@ -93,30 +96,40 @@
           비밀번호와 같은 정보를 보호해야 하므로 POST 방식으로 전달합니다.
           -->
           <form name = "join_form" action = "./join.php" method = "POST">
-            <table align="center">
-              <tr align="right">
-                <td> 아이디 &nbsp;</td>
+            <table align="center" width="500" height = "300">
+              <tr align="center">
+                <td> 아이디 </td>
                 <td> <input type="text" name="user_id" id="id" maxlength="15"></td>
-                <td> &nbsp; <input type="button" id="btn_check" name="checkid" value="중복확인" onclick="id_Check()" ><br></td>
+                <td><input type="button" id="btn_check" name="checkid" value="중복확인" onclick="id_Check()" ><br></td>
               </tr>
-              <tr align="right">
-                <td> 이름 &nbsp;</td>
+              <tr align="center">
+                <td> 이름</td>
                 <td> <input type="text" name="user_name" id="name" maxlength="7" ><br></td>
               </tr>
-              <tr align="right">
-                <td>비밀번호 &nbsp;</td>
+              <tr align="center">
+                <td>비밀번호</td>
                 <td><input type="password" name="user_password" id="password" maxlength="15"><br></td>
               </tr>
-              <tr align="right">
-                <td>비밀번호 확인 &nbsp;</td>
+              <tr align="center">
+                <td>비밀번호 확인</td>
                 <td><input type="password" name="repw" id="password_Check" onkeyup="pw_Check()" maxlength="15"></td>
                 <td align="left" rowspan="1" id="pwchecktext"></td>
               </tr>
+              <tr>
+                <td>이메일</td>
+                <td width: "400px"><input type="text" name="user_email">@<select name="emadress">
+                <option value="naver.com">naver.com</option>
+                <option value="nate.com">nate.com</option>
+                <option value="gmail.com">gmail.com</option>
+                <option value="sejong.ac.kr">sejong.ac.kr</option>
+                <option value="hanmail.com">hanmail.com</option></select></td>
+              </tr>
+
               <tr align="center">
-                <td colspan="3" align=center><br><input type="button" id="btn_pwd_update" value="회원가입" onclick="check()"></td>
+                <td colspan="3" align=center><br><input type="button" id="btn_salmon_small" value="회원가입" onclick="check()"></td>
               </tr>
               <tr>
-                <td colspan="3" align-center><br><input type="button" id="btn_name_update" value="홈으로" name="back" onclick="location.href='main.php'"></td>
+                <td colspan="3" align-center><br><input type="button" id="btn_lightblue_small" value="홈으로" name="back" onclick="location.href='main.php'"></td>
               </tr>
               <br>
             </table>

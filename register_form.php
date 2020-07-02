@@ -5,7 +5,7 @@
 <html>
  </head>
  <link rel="stylesheet" href="ui.css" type="text/css">
- <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+ <link href="https://allfont.net/allfont.css?fonts=comic-sans-ms-bold" rel="stylesheet" type="text/css" />
  <body topmargin=0 leftmargin=0 text="#464646">
  <center>
 
@@ -14,23 +14,23 @@
  <table width=580 border=2 cellpadding=1 cellspacing=1 bgcolor="#777777" align=center >
   <tr>
   <td height=20 align=center bgcolor="#999999">
-  <font color=white style="font-size:30px"><B>신청서</B></font></td>
+  <font color=white style="font-size:20px"><B>신청서</B></font></td>
   </tr>
   <tr>
   <td bgcolor=white>&nbsp;
   <table>
   <tr>
-   &nbsp;<td width=160 align=center style="font-size:25px">이름</td>
+   &nbsp;<td width=160 align=center style="font-size:15px">이름</td>
    <td align=center><input type=text name="register_name" size=20 maxlength=10>
    </td>
   </tr>
   <tr>
-   &nbsp;<td width=160 align=center style="font-size:25px">이메일</td>
+   &nbsp;<td width=160 align=center style="font-size:15px">이메일</td>
    <td align=center><input type=test name="register_email" maxlength=25>
    </td>
   </tr>
   <tr>
-    <td width=160 align=center style="font-size:25px">카테고리
+    <td width=160 align=center style="font-size:15px">카테고리
       <td align=center><select name="friend_category" >
        <option value="0">밥</option>
        <option value="1">운동</option>
@@ -43,7 +43,7 @@
 
   </tr>
   <tr>
-   <td width=160 align=center style="font-size:25px">희망 언어
+   <td width=160 align=center style="font-size:15px">희망 언어
      <td align=center><select name="friend_language" >
       <option value="0">영어</option>
       <option value="1">중국어</option>
@@ -53,27 +53,26 @@
 
   </tr>
   <tr>
-  <td width=160 align=center style="font-size:25px">성별
+  <td width=160 align=center style="font-size:15px">성별
      <td align=center><select name="friend_sex" >
       <option value="0">남</option>
       <option value="1">여</option>
      </select></td></td>
   </tr>
 
-  <tr>
+  <tr align=center>
     <td colspan=10 align=center>
     <br><br><br><center>
     &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
   <input type=submit id="btn_salmon_small" value="신청하기">
    &nbsp;&nbsp;
    <input type=reset id="btn_lightblue_small" value="다시 작성하기">
-   &nbsp;&nbsp;
-   <input type=button value="뒤로가기" id="btn_black_small" onclick="location.href ='findFriend.php'">
+   &nbsp;&nbsp;  </center>
   </td>
   </tr>
   </table>
   </form>
-  </center>
+
  </body>
 </html>
 

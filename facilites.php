@@ -1,10 +1,10 @@
 <?
 include 'topnav.html';
 ?>
-<link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+ <link href="https://allfont.net/allfont.css?fonts=comic-sans-ms-bold" rel="stylesheet" type="text/css" />
 <center>
 <br>
-<h1> <span style="font-size: 35pt;"><span style="font-family: 'Nanum Brush Script',cursive;">학교 근처 편의시설</span></h1>
+<h1> <span style="font-size: 35pt;"><span style="font-family: 'Comic Sans MS Bold', arial;">학교 근처 편의시설</span></h1>
 <br><br><br>
 <?
   include 'map.html';

@@ -1,10 +1,9 @@
 @charset "utf-8";
-
 /* 전체 옵션 */
 * {
 	margin: 0 auto;
 	padding: 0;
-	font-family: 'Malgun gothic','Sans-Serif','Arial';
+	font-family: 'Comic Sans MS Bold', arial;
 }
 a {
 	text-decoration: none;
@@ -35,7 +34,7 @@ ul li {
 	border-top:2px solid #09C;
 	border-bottom:1px solid #CCC;
 	font-weight: bold;
-	font-size: 17px;
+	font-size: 20px;
 }
 .list-table tbody td{
 	text-align:center;
@@ -45,6 +44,6 @@ ul li {
 }
 #write_btn {
 	position: absolute;
-	margin-top:20px;
-	right: 0;
+	margin-top:8px;
+	right: 50px;
 }
