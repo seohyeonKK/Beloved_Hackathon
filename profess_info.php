@@ -24,9 +24,9 @@ else {
   <center>
   <table id ='delete_table'>
      <tr>
-        <th id = 'td_cheate' width =200>&nbsp;학과&nbsp;</th>
-        <th id = 'td_cheate' width =200>&nbsp;성함&nbsp;</th>
-        <th id = 'td_item' width =200>&nbsp;이메일&nbsp;</th>
+        <th id = 'td_cheate' width =300>&nbsp;학과&nbsp;</th>
+        <th id = 'td_cheate' width =300>&nbsp;성함&nbsp;</th>
+        <th id = 'td_item' width =300>&nbsp;이메일&nbsp;</th>
      </tr>
   </table>
   ";
@@ -40,9 +40,9 @@ else {
     echo "
     <table id ='delete_table'>
        <tr>
-          <td id = 'td_cheate' width =200><center> $major </center></td>
-          <td id = 'td_cheate' width =200><center> $name </center></td>
-          <td id = 'td_item' width =200><center> $email </center></td>
+          <td id = 'td_cheate' width =300><center> $major </center></td>
+          <td id = 'td_cheate' width =300><center> $name </center></td>
+          <td id = 'td_item' width =300><center> $email </center></td>
        </tr>
     </table>
     </center>

@@ -4,9 +4,7 @@
     <meta charset="utf-8">
     <title> 메인 화면 </title>
     <link rel="stylesheet" href="ui.css" type="text/css">
-     <link href="https://allfont.net/allfont.css?fonts=comic-sans-ms-bold" rel="stylesheet" type="text/css" />
-    <!-- <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet"> -->
-    <!-- <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"> -->
+      <link href="https://allfont.net/allfont.css?fonts=comic-sans-ms-bold" rel="stylesheet" type="text/css" />
 
     <!-- 여기 넣은 건 별 의미없는데, sidebar 글씨가 뭉게지길래 밑으로 내림 -->
     <?php

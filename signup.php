@@ -5,7 +5,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="ui.css" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+  <link href="https://allfont.net/allfont.css?fonts=comic-sans-ms-bold" rel="stylesheet" type="text/css" />
   <script>
   function check(){
     var password = document.getElementById("password").value;
