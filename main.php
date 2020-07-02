@@ -4,7 +4,10 @@
     <meta charset="utf-8">
     <title> 메인 화면 </title>
     <link rel="stylesheet" href="ui.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+     <link href="https://allfont.net/allfont.css?fonts=comic-sans-ms-bold" rel="stylesheet" type="text/css" />
+    <!-- <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet"> -->
+
     <!-- 여기 넣은 건 별 의미없는데, sidebar 글씨가 뭉게지길래 밑으로 내림 -->
     <?php
       include 'topnav.html';
@@ -13,22 +16,18 @@
 
   <body>
     <center>
+
       <br><br><br><br>
-      <h1 id="page_title"> 세종대학교 외국인 학우들 모여라~ </h1>
-      <br>
+      <img src="img/logo.png" width="304" height="113">
+      <br><br><br>
       <table>
         <tr>
         <input type='button' value='로그인' id="btn_mainpage_signin" onClick="location.href='signin.php'";></td>
       </tr><br><br>
         <tr>
           <input type='button' value='회원가입' id="btn_mainpage_signup" onClick="location.href='signup.php'";></td>
-        </tr>
+        </tr><br>
       </table>
-
-      <br>
-      <input type="button" value="언어 선택" id="btn_mainpage_chooseLang" onclick="location.href='chooseLanguage.php'";>
-      <br><br>
-
     </center>
   </body>
 </html>
@@ -96,7 +95,7 @@ $(window).load(function () {
 </script>
 <div id="google_translate_element" style="visibility: hidden; position: absolute; top: 0px;"></div>
 <div class="translation-icons" style="visibility: hidden; position: relative; margin:0 auto; padding-right: 15px; zoom:1">
-
+<br><br><br><br><br>
 <img src="img/google_translate_logo.png" alt='구글 번역 api'/>
  <a href="#" class="ko" data-placement="0"> <img src="img/KR.png" alt='한국'/></a>
  <a href="#" class="gm" data-placement="1"> <img src="img/GM.png" alt='독일'/></a>

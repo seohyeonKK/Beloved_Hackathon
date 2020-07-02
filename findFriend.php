@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="ui.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
 
-<link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
   </head>
   <body>
     <br><br><br><br>

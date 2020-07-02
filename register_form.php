@@ -60,20 +60,19 @@
      </select></td></td>
   </tr>
 
-  <tr>
+  <tr align=center>
     <td colspan=10 align=center>
     <br><br><br><center>
     &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
   <input type=submit id="btn_salmon_small" value="신청하기">
    &nbsp;&nbsp;
    <input type=reset id="btn_lightblue_small" value="다시 작성하기">
-   &nbsp;&nbsp;
-   <input type=button value="뒤로가기" id="btn_black_small" onclick="location.href ='findFriend.php'">
+   &nbsp;&nbsp;  </center>
   </td>
   </tr>
   </table>
   </form>
-  </center>
+
  </body>
 </html>
 
