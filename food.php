@@ -10,11 +10,3 @@ include 'topnav.html';
   include 'map.html';
 ?>
 <style>
-#info {
-  position: absolute;
-  top: 160px;
-  right: 16px;
-  height: 40%;
-  width: 50%;
-}
-</style>
