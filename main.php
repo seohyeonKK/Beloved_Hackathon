@@ -7,13 +7,13 @@
     <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
     <!-- 여기 넣은 건 별 의미없는데, sidebar 글씨가 뭉게지길래 밑으로 내림 -->
     <?php
-      session_start();
-      include 'sidebar.html';
+      include 'topnav.html';
      ?>
   </head>
 
   <body>
     <center>
+      <br><br><br><br>
       <h1 id="page_title"> 세종대학교 외국인 학우들 모여라~ </h1>
       <br>
       <table>

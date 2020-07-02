@@ -21,7 +21,6 @@ body{
   color : Lightblue;
 }
 
-
 #pop_up_css{
   text-align : center;
   margin-top : 35px;
@@ -91,10 +90,10 @@ body{
   font-size : 12px;
 }
 
-#acc_information{
+#information{
   font-family: 'Nanum Brush Script',cursive;
   color: RGB(0,0,0);
-  font-size : 25px;
+  font-size : 30px;
   padding: 10px;
 }
 
@@ -164,21 +163,6 @@ body{
   display: inline-block;
 }
 
-#btn_mainpage_signin{
-  font-family:'Nanum Brush Script',cursive;
-  font-size: 25px;
-  border : 2px;
-  width : 270px;
-  height : 50px;
-  opacity: 0.6;
-  transition: 0.3s;
-}
-#btn_mainpage_signin:hover {
-  background: Lightblue;
-  color: white;
-  opacity: 1;
-}
-
 #btn_mainpage_find{
   font-family:'Nanum Brush Script',cursive;
   font-size: 20px;
@@ -209,20 +193,7 @@ body{
   opacity: 1;
 }
 
-#btn_mainpage_signup{
-  font-family:'Nanum Brush Script',cursive;
-  font-size: 25px;
-  border : 2px;
-  width : 270px;
-  height : 50px;
-  opacity: 0.6;
-  transition: 0.3s;
-}
-#btn_mainpage_signup:hover {
-  background: LightCoral;
-  color: white;
-  opacity: 1;
-}
+
 
 
 #btn_mypage{
@@ -270,20 +241,7 @@ body{
   opacity: 1;
 }
 
-#btn_mainpage_chooseLang{
-  font-family:'Nanum Brush Script',cursive;
-  font-size: 25px;
-  border : 2px;
-  width : 270px;
-  height : 50px;
-  opacity: 0.6;
-  transition: 0.3s;
-}
-#btn_mainpage_chooseLang:hover {
-  background: black;
-  color: white;
-  opacity: 1;
-}
+
 
 #btn_delete{
   font-family:'Nanum Brush Script',cursive;
@@ -300,7 +258,10 @@ body{
   opacity: 1;
 }
 
-#btn_name_update{
+
+
+/* 여기 사용 */
+#btn_black_small{
   font-family:'Nanum Brush Script',cursive;
   font-size: 18px;
   border : 2px;
@@ -309,13 +270,27 @@ body{
   opacity: 0.6;
   transition: 0.3s;
 }
-#btn_name_update:hover {
+#btn_black_small:hover {
+  background: black;
+  color: white;
+  opacity: 1;
+}
+#btn_salmon_small{
+  font-family:'Nanum Brush Script',cursive;
+  font-size: 18px;
+  border : 2px;
+  width : 133px;
+  height : 30px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+#btn_salmon_small:hover {
   background: Salmon;
   color: white;
   opacity: 1;
 }
 
-#btn_pwd_update{
+#btn_lightblue_small{
   font-family:'Nanum Brush Script',cursive;
   font-size: 18px;
   border : 2px;
@@ -324,11 +299,54 @@ body{
   opacity: 0.6;
   transition: 0.3s;
 }
-#btn_pwd_update:hover {
+#btn_lightblue_small:hover {
   background: Lightblue;
   color: white;
   opacity: 1;
 }
+#btn_mainpage_signin{
+  font-family:'Nanum Brush Script',cursive;
+  font-size: 25px;
+  border : 2px;
+  width : 270px;
+  height : 50px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+#btn_mainpage_signin:hover {
+  background: Lightblue;
+  color: white;
+  opacity: 1;
+}
+#btn_mainpage_signup{
+  font-family:'Nanum Brush Script',cursive;
+  font-size: 25px;
+  border : 2px;
+  width : 270px;
+  height : 50px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+#btn_mainpage_signup:hover {
+  background: LightCoral;
+  color: white;
+  opacity: 1;
+}
+#btn_mainpage_chooseLang{
+  font-family:'Nanum Brush Script',cursive;
+  font-size: 25px;
+  border : 2px;
+  width : 270px;
+  height : 50px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+#btn_mainpage_chooseLang:hover {
+  background: black;
+  color: white;
+  opacity: 1;
+}
+/* /////////////////// */
 
 #delete_table{
   font-size : 20px;
