@@ -179,7 +179,6 @@ body{
 }
 
 #btn_mainpage_allfind{
-  font-family:'Nanum Brush Script',cursive;
   font-size: 20px;
   border : 0px;
   width : 120px;
@@ -197,7 +196,6 @@ body{
 
 
 #btn_mypage{
-  font-family:'Nanum Brush Script',cursive;
   font-size: 18px;
   border : 2px;
   width : 80px;
@@ -212,7 +210,6 @@ body{
 }
 
 #btn_mypage_logout{
-  font-family:'Nanum Brush Script',cursive;
   font-size: 18px;
   border : 2px;
   width : 80px;
@@ -241,8 +238,6 @@ body{
   opacity: 1;
 }
 
-
-
 #btn_delete{
   font-family:'Nanum Brush Script',cursive;
   font-size: 18px;
@@ -261,6 +256,20 @@ body{
 
 
 /* 여기 사용 */
+#btn_write{
+  background: Lightblue;
+  font-family:'Nanum Brush Script',cursive;
+  font-size: 18px;
+  border : 2px;
+  width : 100px;
+  height : 30px;
+  opacity: 1;
+}
+#btn_write:hover {
+  background: Lightblue;
+  color: white;
+  opacity: 1;
+}
 #btn_black_small{
   font-family:'Nanum Brush Script',cursive;
   font-size: 18px;

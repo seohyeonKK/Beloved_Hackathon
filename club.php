@@ -1,26 +1,30 @@
-<?php include  $_SERVER['DOCUMENT_ROOT']."/db.php"; ?>
+<?
+  include 'topnav.html';
+?>
 <!doctype html>
 <head>
 <meta charset="UTF-8">
 <title>게시판</title>
 <link rel="stylesheet" href="club_form.css" type="text/css">
+<link rel="stylesheet" href="ui.css" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
 </head>
 <body>
 <div id="board_area">
-  <h1>자유게시판</h1>
-  <h4>자유롭게 글을 쓸 수 있는 게시판입니다.</h4>
+  <br><br><br><font style="font-size: 40px"><b>동아리 게시판</b></font>
+  <div id="write_btn">
+    <a href="#"><button id ="btn_write"><font style="font-size: 20px">글쓰기</font></button></a>
+  </div>
     <table class="list-table">
       <thead>
           <tr>
-              <th width="70">번호</th>
+              <th width="80">번호</th>
                 <th width="500">제목</th>
-                <th width="120">글쓴이</th>
-                <th width="100">작성일</th>
-                <th width="100">조회수</th>
+                <th width="130">글쓴이</th>
+                <th width="110">작성일</th>
             </tr>
         </thead>
-        <?php
+        <!-- <?php
         // board테이블에서 idx를 기준으로 내림차순해서 5개까지 표시
           $sql = mq("select * from board order by idx desc limit 0,5");
             while($board = $sql->fetch_array())
@@ -43,10 +47,8 @@
         </tr>
       </tbody>
       <?php } ?>
-    </table>
-    <div id="write_btn">
-      <a href="/page/board/write.php"><button>글쓰기</button></a>
-    </div>
+    </table> -->
+
   </div>
 </body>
 </html>

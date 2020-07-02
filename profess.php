@@ -7,7 +7,7 @@
 <br><br><body>
 <font style="font-size:45px"><b>교수님 소개</b></font>
 <br><br><br>
-<select name="depart">
+<select name="depart" >
   <option value="0">학과</option>
   <option value="1">컴퓨터공학과</option>
   <option value="2">소프트웨어학과</option>
