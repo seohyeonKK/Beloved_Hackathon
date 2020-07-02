@@ -32,19 +32,34 @@
 
         function initMap() {
           var sejong_univ = new google.maps.LatLng(37.551040, 127.075800);
-          var type_string;
+          var type_facility = document.getElementById("facility");
+          var type = type_facility.options[type_facility.selectedIndex].value;
+
           exports.infowindow = new google.maps.InfoWindow();
           exports.map = new google.maps.Map(document.getElementById("map"), {
             center: sejong_univ,
             zoom: 17
           });
-          if(document.facility.value == "0"){
-            type_string="convenience_store";
+          if(type == "0"){
+            var f = "convenience_store";
           }
+          if(type == "1"){
+            var f = "cafe";
+          }
+          if(type == "2"){
+            var f = "hospital";
+          }
+          if(type == "3"){
+            var f = "pharmacy";
+          }
+          if(type == "4"){
+            var f = "bank";
+          }
+
           var request = {
             location : sejong_univ,
             radius: '600',
-            type: [type_string]
+            type: [f]
           };
           exports.service = new google.maps.places.PlacesService(exports.map);
           exports.service.nearbySearch(request, function(
@@ -87,6 +102,7 @@
       <option value="1">카페</option>
       <option value="2">병원</option>
       <option value="3">약국</option>
+      <option value="4">은행</option>
     </select>
   </center>
     <div id="map"></div>
