@@ -11,17 +11,17 @@
 </head>
 <body>
 <div id="board_area">
-  <br><br><br><font style="font-size: 40px"><b>동아리 게시판</b></font>
+  <br><br><br><font style="font-size: 30px"><b>동아리 게시판</b></font>
   <div id="write_btn">
-    <a href="#"><button id ="btn_write"><font style="font-size: 20px">글쓰기</font></button></a>
+    <a href="#"><button id ="btn_write"><font style="font-size: 15px">글쓰기</font></button></a>
   </div>
     <table class="list-table">
       <thead>
           <tr>
-              <th width="80">번호</th>
-                <th width="500">제목</th>
-                <th width="130">글쓴이</th>
-                <th width="110">작성일</th>
+              <th width="80"><font style="font-size: 15px">번호</font></th>
+                <th width="500"><font style="font-size: 15px">제목</font></th>
+                <th width="130"><font style="font-size: 15px">글쓴이</font></th>
+                <th width="110"><font style="font-size: 15px">작성일</font></th>
             </tr>
         </thead>
         <!-- <?php
