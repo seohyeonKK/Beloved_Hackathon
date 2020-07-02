@@ -7,11 +7,12 @@
 <br><br><body>
 <font style="font-size:45px"><b>교수님 소개</b></font>
 <br><br><br>
-<select name="depart" >
-  <option value="0">학과</option>
-  <option value="1">컴퓨터공학과</option>
-  <option value="2">소프트웨어학과</option>
-  <option value="3">데이터사이언스학과</option>
+<select id="depart">
+  <option selected disabled value="0">학과선택</option>
+  <option value="컴퓨터공학과">컴퓨터공학과</option>
+  <option value="소프트웨어학과">소프트웨어학과</option>
+  <option value="데이터사이언스학과">데이터사이언스학과</option>
+  <option value="선택안함">선택안함</option>
 </select>
 
 <button onclick="find()">설정</button>
@@ -37,3 +38,23 @@
 
   </script>
 </body>
+
+
+
+<script>
+function googleTranslateElementInit() {
+      new google.translate.TranslateElement(
+          {
+              //gaTrack: true,  // Google 애널리틱스
+              //gaId: 'UA-*******', // Google 애널리틱스 웹 속성 ID
+              pageLanguage: 'ko',
+              includedLanguages: 'de,en,ja,ko,zh-CN',
+              layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+              autoDisplay: false, multilanguagePage: true
+            },
+            'google_translate_element'
+            );
+          }
+</script>
+
+<script src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
