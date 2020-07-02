@@ -18,7 +18,6 @@
 
        /* Modal Content/Box */
        .modal-content {
-
            background-color: #fefefe;
            margin: 15% auto; /* 15% from the top and centered */
            padding: 20px;
@@ -37,7 +36,7 @@
                <table><tr>
                  <font style="font-family: 'Nanum Brush Script',cursive;">
                  <td width=160 align=center style="font-size:25px"><font style="font-family: 'Nanum Brush Script',cursive;">카테고리
-                   <td align=center><select name="friend_category">
+                   <td align=center><select name="my_category">
                     <option value="0">밥</option>
                     <option value="1">운동</option>
                     <option value="2">공부</option>
@@ -50,7 +49,7 @@
                </tr>
                <tr>
                 <td width=160 align=center style="font-size:25px"><font style="font-family: 'Nanum Brush Script',cursive;">희망 언어
-                  <td align=center><select name="friend_language" >
+                  <td align=center><select name="my_language" >
                    <option value="0">영어</option>
                    <option value="1">중국어</option>
                    <option value="2">일본어</option>
@@ -60,7 +59,7 @@
                </tr>
                <tr> <font style="font-family: 'Nanum Brush Script',cursive;">
                <td width=160 align=center style="font-size:25px"><font style="font-family: 'Nanum Brush Script',cursive;">성별
-                  <td align=center><select name="friend_sex" >
+                  <td align=center><select name="my_sex" >
                    <option value="0">남</option>
                    <option value="1">여</option>
                   </select></td></td>
@@ -69,7 +68,7 @@
               <br><br>
            <div style="cursor:pointer;background-color:#DDDDDD;text-align: center;padding-bottom: 10px;padding-top: 10px;" onClick="close_pop();">
 
-               <span class="pop_bt" style="font-size: 13pt;" style="font-family: 'Nanum Brush Script',cursive;">확인</span>
+               <span class="pop_bt" style="font-size: 17pt;" style="font-family: 'Nanum Brush Script',cursive;">신청하기</span>
            </div>
      </div>
    </div>

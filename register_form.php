@@ -21,12 +21,12 @@
   <table>
   <tr>
    &nbsp;<td width=160 align=center style="font-size:25px">이름</td>
-   <td align=center><input type=text name="name" size=20 maxlength=10>
+   <td align=center><input type=text name="register_name" size=20 maxlength=10>
    </td>
   </tr>
   <tr>
    &nbsp;<td width=160 align=center style="font-size:25px">이메일</td>
-   <td align=center><input type=test name="email" maxlength=25>
+   <td align=center><input type=test name="register_email" maxlength=25>
    </td>
   </tr>
   <tr>

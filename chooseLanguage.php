@@ -34,7 +34,7 @@
      <div class="modal-content">
                <p style="text-align: center;"><b><span style="font-size: 24pt;"><span style="font-family: 'Nanum Brush Script',cursive;">언어 선택</span></b></span></p><br>
                <center>
-               <select id="language" name="language" >
+               <select id="language" name="main_language" >
                 <option value="0">영어</option>
                 <option value="1">중국어</option>
                 <option value="2">일본어</option>
