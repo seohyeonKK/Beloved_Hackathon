@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Place Searches</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBESGGijSm-drOU_vAdOckth7zBIHny7uU&callback=initMap&libraries=&v=weekly"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBESGGijSm-drOU_vAdOckth7zBIHny7uU&callback=initMap&libraries=places&v=weekly"
       defer
     ></script>
     <style type="text/css">
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
       #map {
-        position: absolute;
-        top: 180px;
-        left: 16px;
-        height: 50%;
-        width: 40%;
+        height: 100%;
       }
 
       /* Optional: Makes the sample page fill the window. */
@@ -29,22 +26,56 @@
       (function(exports) {
         "use strict";
 
+        // This example requires the Places library. Include the libraries=places
+        // parameter when you first load the API. For example:
+        // <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
+
         function initMap() {
+          var sejong_univ = new google.maps.LatLng(37.551040, 127.075800);
+          exports.infowindow = new google.maps.InfoWindow();
           exports.map = new google.maps.Map(document.getElementById("map"), {
-            center: {
-              lat: 37.551040,
-              lng: 127.075783
-            },
-            zoom: 18
+            center: sejong_univ,
+            zoom: 17
+          });
+          var request = {
+            location : sejong_univ,
+            radius: '600',
+            type: ['restaurant']
+          };
+          exports.service = new google.maps.places.PlacesService(exports.map);
+          exports.service.nearbySearch(request, function(
+            results,
+            status
+          ) {
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+              for (var i = 0; i < results.length; i++) {
+                createMarker(results[i]);
+              }
+
+              exports.map.setCenter(results[0].geometry.location);
+            }
           });
         }
 
+        function createMarker(place) {
+          var marker = new google.maps.Marker({
+            map: exports.map,
+            position: place.geometry.location
+            });
+          google.maps.event.addListener(marker, "click", function() {
+            exports.infowindow.setContent(place.name);
+
+            exports.infowindow.open(exports.map, this);
+          });
+        }
+
+        exports.createMarker = createMarker;
         exports.initMap = initMap;
       })((this.window = this.window || {}));
+
     </script>
   </head>
   <body>
-    <br><br>
     <div id="map"></div>
   </body>
 </html>
