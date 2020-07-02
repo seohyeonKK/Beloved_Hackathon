@@ -1,3 +1,4 @@
+<link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-latest.js"></script>
 
    <style>
@@ -22,6 +23,7 @@
            padding: 20px;
            border: 1px solid #888;
            width: 30%; /* Could be more or less, depending on screen size */
+
        }
 
 </style>
@@ -30,7 +32,7 @@
    <div id="myModal" class="modal">
      <!-- Modal content -->
      <div class="modal-content">
-               <p style="text-align: center;"><span style="font-size: 14pt;"><b><span style="font-size: 24pt;">언어 선택</span></b></span></p><br>
+               <p style="text-align: center;"><b><span style="font-size: 24pt;"><span style="font-family: 'Nanum Brush Script',cursive;">언어 선택</span></b></span></p><br>
                <center>
                <select id="language" name="language" >
                 <option value="0">영어</option>
@@ -41,7 +43,7 @@
               </select></center><br><br>
 
            <div style="cursor:pointer;background-color:#DDDDDD;text-align: center;padding-bottom: 10px;padding-top: 10px;" onClick="close_pop();">
-               <span class="pop_bt" style="font-size: 13pt;" >확인</span>
+               <span class="pop_bt" style="font-size: 13pt;" style="font-family: 'Nanum Brush Script',cursive;">확인</span>
            </div>
      </div>
    </div>
